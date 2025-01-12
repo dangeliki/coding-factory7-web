@@ -69,6 +69,28 @@ main{
     flex: 75%;
 }
 
+/*Stepper Styling*/
+
+
+.stepper-circle {
+    width: 30px;
+    height: 30px;
+    color: var(--white);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: var(--lightgrey-300);
+
+}
+.active {
+    background-color: var(--gov-blue);
+}
+
+.stepper-border-bottom{
+    display: block;
+    border-bottom: 1px solid var(--lightgrey-300);
+    content: '';
+}
 /*General Styling*/
 
 /*Displays*/
@@ -78,12 +100,19 @@ main{
 
 }
 
+.d-block {
+    display: block;
+}
+
 .flex-row {
     flex-direction: row;
 }
 
 .align-center {
     align-items: center;
+}
+.flex-grow-1 {
+    flex-grow: 1;
 }
 
 
@@ -100,9 +129,17 @@ main{
     background-color: var(--lightgrey-300);
 }
 
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
 /*Text Styling*/
 .font-size-1 {
     font-size: 1rem;
+
+}
+.font-size-2 {
+    font-size: 2rem;
 
 }
 
@@ -151,6 +188,10 @@ main{
 .mb-2 {
     margin-bottom: 2rem;
 }
+.m-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Borders*/
 .border {
@@ -161,6 +202,9 @@ main{
 .border-white {
     border-color: var(--white);
 
+}
+.border-lightgrey-200 {
+    border-color: var(--lightgrey-200);
 }
 
 .border-radius-15 {
